@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="Login.js"></script>
+        <script src="savetodata.js"></script>
+        <link rel="stylesheet" href="design.css">
+        <script type="module" src="loggin.json"></script>
+
+        <p id="titles">welcome to the dnd realm stock manager</p>
+    </head>
+    <body>
+        <p id="body">username</p>
+        <input type="text" id="textboxUsername" placeholder="enter username here">
+
+        <p id="body">password</p>
+
+        <input type="password" id="textboxPassword" placeholder="enter password here">
+        <button type="button" id="passwordbutton" onclick="hidepassword()">👁</button>
+
+        <button type="button" id="abutton" onclick="LoginCheck()">Login</button>
+
+        <p id="errorMsg"></p>
+    </body>
+</html>
